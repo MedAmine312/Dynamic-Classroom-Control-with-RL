@@ -13,7 +13,7 @@ The RL agent takes in three "statistics": an attention/engagement score, a therm
 
 ## **Installation and Running**
 
-1. Clone the repository: `git clone https://github.com/Saad-Mufti/Dynamic-Classroom-Control-with-RL.git`
+1. Clone the repository: `git clone https://github.com/MohamedAmine-Belyamani/Dynamic-Classroom-Control-with-RL.git`
 2. Install necessary dependencies: `pip install -r requirements.txt`. Note that `tensorflow` is only required for running `fer_model_custom.py`. Otherwise, it is fine to use the [`fer`](https://github.com/justinshenk/fer) package by [Justin Shenk](https://github.com/justinshenk). Also note that `pytorch` is installed to use CUDA support.
 3. Install `OpenFace` *from source* as described [here](https://github.com/AnshulSood11/Engagement-Level-Prediction#geting-started).
 4. Run the `room_agent_notebook.ipynb` notebook to train the RL model.
